@@ -1,0 +1,62 @@
+#include "CHVD\dialog.hpp"
+class CfgFunctions
+{
+	#include "CHVD\CfgFunctions.hpp"
+};
+respawnTemplatesVirtual[] = {};
+respawnOnStart = -1;
+class CfgSounds
+{
+	sounds[] = {jump};
+	class jump
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "jump";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sound\jump.ogg", 1, 1, 10 };
+
+		// subtitle delay in seconds, subtitle text
+		titles[] = { 1, "*Countdown*" };
+	};
+	
+	
+};
+class CfgMusic
+{
+	tracks[] = {intro,t1,t2,a};
+	class intro
+	{
+		// display name
+		name	= "Intro";
+
+		// filename, volume, pitch
+		sound[]	= { "\music\story.ogg", db + 0, 1.0 };
+	};
+	
+	class t1
+	{
+		// display name
+		name	= "Track1";
+
+		// filename, volume, pitch
+		sound[]	= { "\music\t1.ogg", db + 15, 1.0 };
+	};
+	class t2
+	{
+		// display name
+		name	= "Track2";
+
+		// filename, volume, pitch
+		sound[]	= { "\music\t2.ogg", db + 15, 1.0 };
+	};
+	class a
+	{
+		// display name
+		name	= "ambiant";
+
+		// filename, volume, pitch
+		sound[]	= { "\music\ambiant.ogg", db + 15, 1.0 };
+	};
+	
+};
