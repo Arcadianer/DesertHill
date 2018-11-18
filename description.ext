@@ -31,7 +31,7 @@ class CfgMusic
 		name	= "Intro";
 
 		// filename, volume, pitch
-		sound[]	= { "\music\story.ogg", db + 0, 1.0 };
+		sound[]	= { "\music\story.ogg", db + 15, 1.0 };
 	};
 	
 	class t1
