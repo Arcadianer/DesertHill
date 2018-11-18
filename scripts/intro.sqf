@@ -1,5 +1,5 @@
 start_intro=false;
-sleep 1;
+sleep 3;
 cutText ["Please Wait","BLACK OUT" ,0];
 1 fadeSound 0;
 sleep 1;

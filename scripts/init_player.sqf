@@ -8,4 +8,5 @@ uncon=compile preprocessFile "scripts\functions\fuc_unconscious.sqf";
 
 //Wait for start
 execVM "scripts\intro.sqf";
-hint "intro starting";
+
+execVM "scripts\title.sqf";

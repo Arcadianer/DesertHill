@@ -34,13 +34,13 @@ class CfgMusic
 		sound[]	= { "\music\story.ogg", db + 15, 1.0 };
 	};
 	
-	class t1
+	class title
 	{
 		// display name
-		name	= "Track1";
+		name	= "title";
 
 		// filename, volume, pitch
-		sound[]	= { "\music\t1.ogg", db + 15, 1.0 };
+		sound[]	= { "\music\title.ogg", db + 15, 1.0 };
 	};
 	class t2
 	{

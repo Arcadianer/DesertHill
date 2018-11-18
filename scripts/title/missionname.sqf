@@ -1,0 +1,1 @@
+[parseText "<t font='PuristaBold' size='3'>Missing in Action</t><br/><t size='1.8'>by Manuel and Immortalhawk<t/>", [0,0.2,1,1], 10, 10, 5, 0] spawn BIS_fnc_textTiles
